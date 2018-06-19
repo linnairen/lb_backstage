@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    -webkit-overflow-scrolling: touch;
+    letter-spacing: 0;
+}
+
+html,
+body {
+    height: 100%;
+    max-width: 2440px;
+    min-width: 1280px;
+    overflow-x: auto;
+    position: relative;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    background: #f0f2f5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+i{
+	font-style: normal;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+textarea {
+    resize: none;
+    display: block;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+a{
+	text-decoration: none
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+.m{
+	margin:0 2%;
+}
+	
+
+.red{
+    color: #f00;
+}
+.cell{
+    padding: 7px 4px !important;
+}
+/*.el-table, */
+.el-table td,
+.el-table th{
+    box-sizing: content-box !important;
+    padding: 0 !important;
+}
+/*.el-table .is-leaf {
+    box-sizing: border-box !important;
+}*/
+.el-input{
+    width: auto;
+}
